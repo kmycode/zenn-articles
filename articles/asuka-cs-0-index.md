@@ -1,5 +1,5 @@
 ---
-title: "Asuka's CS 目次"
+title: "あすかの怪文書 目次"
 emoji: "🤮"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ['csharp', 'asukacs']

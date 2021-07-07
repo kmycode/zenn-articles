@@ -8,7 +8,7 @@ published: false
 
 # 目次
 
-これは連載「Asuka's CS」の記事です。[目次はこちらからご覧になれます](https://zenn.dev/kmy/articles/asuka-cs-0-index)
+これは連載「あすかの怪文書」の記事です。[目次はこちらからご覧になれます](https://zenn.dev/kmy/articles/asuka-cs-0-index)
 
 # 言い訳
 
@@ -326,4 +326,4 @@ class Program
 
 # 目次
 
-これは連載「Asuka's CS」の記事です。[目次はこちらからご覧になれます](https://zenn.dev/kmy/articles/asuka-cs-0-index)
+これは連載「あすかの怪文書」の記事です。[目次はこちらからご覧になれます](https://zenn.dev/kmy/articles/asuka-cs-0-index)
