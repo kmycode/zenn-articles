@@ -44,6 +44,11 @@ published: false
 
 読者はすでにC#の一通りの文法を理解しており、簡単なプログラムなら書けるスキルを持っていることを想定します。本連載ではC#の文法についてほとんど説明しません。わからないところはご自身で調べていただくことになります。
 
+# 対象環境
+
+Windows Visual Studio 2019 + C# 9.0
+なおC# 8.0で追加されたNULL許容参照型は有効にするものとします。
+
 # 本連載の目標
 
 保守性・拡張性を考慮したコードが書けるように頑張ります。みなさんのプログラミングにおいて、少しでも参考になれば幸いです。
@@ -52,15 +57,16 @@ published: false
 # 目次（予定含む）
 
 ## 第1章　オブジェクト指向
-* [概要](https://zenn.dev/kmy/articles/asuka-cs-1-summary)
-* [クラスの責務とは](https://zenn.dev/kmy/articles/asuka-cs-1-responsibility)
-* オブジェクト指向の必要性
-* SOLID原則
-  * SRP
-  * OCP
-  * LSP
-  * ISP
-  * DIP
+* [概要](https://zenn.dev/kmy/articles/asuka-cs-1-0-summary)
+* [DDDの簡単な紹介](https://zenn.dev/kmy/articles/asuka-cs-1-1-ddd)
+* [インスタンスは「もの」ではない](https://zenn.dev/kmy/articles/asuka-cs-1-2-instance-not-mono)
+* 組み込み型より新規クラス・構造体の作成を選択する
+* 1つの型の責務を明確にし、複数の責務を含めない
+* アクセス修飾子はprivateを優先的に検討する
+* 基底クラスをオーバーライドしたメソッドに異なる挙動をさせない
+* インターフェースを肥大化させない
+* 具象ではなく抽象に依存する
+* トランザクションスクリプトが適切な場合
 
 ## 第2章　基礎
 
