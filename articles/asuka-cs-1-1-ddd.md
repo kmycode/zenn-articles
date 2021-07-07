@@ -239,8 +239,8 @@ class HumanFactory
 
   public Human CreateMale(string name, DateTime birthDay)
   {
-    var age = (DateTime.Now - birthDay).TotalDays / 265;
-    return new Human(name, age, Sex.Male, birthDay, this.GroupName);
+    var age = (DateTime.Now - birthDay).TotalDays / 365;
+    return new(name, age, Sex.Male, birthDay, this.GroupName);
   }
 }
 
