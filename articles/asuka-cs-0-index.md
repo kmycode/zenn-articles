@@ -47,18 +47,21 @@ Windows Visual Studio 2019 + C# 9.0
 
 # 目次（予定含む）
 
-リンクが切れているものは、まだ公開していない記事です。これらの記事は、GitHubの公開リポジトリにプッシュしておりますので、いち早く読みたい方はそちらを参照してください。
+リンクが切れているものは、まだ公開していない記事です。これらの記事は、GitHubの公開リポジトリにプッシュしておりますので、いち早く読みたい方はそちらを参照してください。ただしそれらは全て草稿か下書きであり、Zennで公開するまでに変更が加えられる可能性があります。
 
 ## 第1章　オブジェクト指向
 * [概要](https://zenn.dev/kmy/articles/asuka-cs-1-0-summary)
 * [DDDの簡単な紹介](https://zenn.dev/kmy/articles/asuka-cs-1-1-ddd)
 * [インスタンスは「もの」ではない](https://zenn.dev/kmy/articles/asuka-cs-1-2-instance-not-mono)
-* [組み込み型より新規クラス・構造体の作成を選択する](https://zenn.dev/kmy/articles/asuka-cs-1-3-valueobject)
-* 1つの型の責務を明確にし、複数の責務を含めない
+* [組み込み型より新規クラス・構造体の作成を選択する](https://zenn.dev/kmy/articles/asuka-cs-1-3-customclass)
+* [1つの型の責務を明確にし、複数の責務を含めない](https://zenn.dev/kmy/articles/asuka-cs-1-4-single-responsibility)
 * アクセス修飾子はprivateを優先的に検討する
 * 基底クラスをオーバーライドしたメソッドに異なる挙動をさせない
 * インターフェースを肥大化させない
 * 具象ではなく抽象に依存する
+* 処理の共通化のために継承しない
+* 継承とインターフェースの使い分け
+* 行き過ぎた合理化・共通化に注意する
 * トランザクションスクリプトが適切な場合
 
 ## 第2章　基礎
