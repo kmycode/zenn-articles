@@ -52,7 +52,7 @@ Windows Visual Studio 2019 + C# 9.0
 ## 第1章　オブジェクト指向
 * [概要](https://zenn.dev/kmy/articles/asuka-cs-1-0-summary)
 * [DDDの簡単な紹介](https://zenn.dev/kmy/articles/asuka-cs-1-1-ddd)
-* [インスタンスは「もの」ではない](https://zenn.dev/kmy/articles/asuka-cs-1-2-instance-not-mono)
+* [オブジェクトは「もの」ではない](https://zenn.dev/kmy/articles/asuka-cs-1-2-object-not-mono)
 * [組み込み型より新規クラス・構造体の作成を選択する](https://zenn.dev/kmy/articles/asuka-cs-1-3-customclass)
 * [1つの型の責務を明確にし、複数の責務を含めない](https://zenn.dev/kmy/articles/asuka-cs-1-4-single-responsibility)
 * アクセス修飾子はprivateを優先的に検討する
