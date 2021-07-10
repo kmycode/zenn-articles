@@ -105,6 +105,10 @@ readonly struct MyNumber
 * 同一のデータが同一の値を表現しない
   * エンティティにしてください
 
+:::message
+上のリストは私の考えであり、出典はありません。適当に聞き流してください
+:::
+
 ```mermaid
 classDiagram
   Yamata <|-- MyNumber
@@ -134,12 +138,12 @@ class Yamata {
 var num1 = new MyNumber { Number = "123456789012", };
 var num2 = new MyNumber { Number = "123456789012", };
 
-// always true if MyNumber is value object
+// always true if MyNumber is value object and equal values
 var b = num1 == num2;
 ```
 
 値オブジェクトはあくまで値を示すべきであり、同一性はただそのデータ内容によってのみ決まります。
-値オブジェクトは可能であれば`Equals`メソッド、`GetHashCode`メソッド、`==`演算子のオーバーライドをあわせて実装すべきですが、それはプログラムを冗長にさせます。C# 10.0では`record struct`記法が[可能になるらしい](https://ufcpp.net/study/csharp/datatype/record/#record-struct)ので、そちらに期待しましょう。
+値オブジェクトは可能であれば`Equals`メソッド、`GetHashCode`メソッド、`==`演算子のオーバーライドをあわせて実装すべきですが、それはプログラムを冗長にさせます。代替として`ISourceGenerator`を利用する手段もありますが、C# 10.0では`record struct`記法が[可能になるらしい](https://ufcpp.net/study/csharp/datatype/record/#record-struct)ので、そちらに期待しましょう。
 
 値オブジェクトはその性質上、イミュータブルであることが好まれます。
 
