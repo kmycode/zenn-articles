@@ -3,7 +3,7 @@ title: "第1章　1　DDDの簡単な紹介"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ['csharp', 'asukacs']
-published: false
+published: true
 ---
 
 # 目次
