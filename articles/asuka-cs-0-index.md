@@ -59,8 +59,8 @@ Windows Visual Studio 2019 + C# 9.0
 * [1つの型の責務を明確にし、複数の責務を含めない](https://zenn.dev/kmy/articles/asuka-cs-1-4-single-responsibility)
 * [アクセス修飾子はprivateを優先的に検討する](https://zenn.dev/kmy/articles/asuka-cs-1-5-go-private)
 * [基底クラスをオーバーライドしたメソッドに異なる挙動をさせない](https://zenn.dev/kmy/articles/asuka-cs-1-6-subclass-method)
-* インターフェースを肥大化させない
 * 具象ではなく抽象に依存する
+* インターフェースを肥大化させない
 * 処理の共通化のために継承しない
 * 継承とインターフェースの使い分け
 * 行き過ぎた合理化・共通化に注意する
