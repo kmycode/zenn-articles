@@ -60,7 +60,7 @@ Windows Visual Studio 2019 + C# 9.0
 * [アクセス修飾子はprivateを優先的に検討する](https://zenn.dev/kmy/articles/asuka-cs-1-5-go-private)
 * [抽象メソッドをオーバーライドまたは実装したメソッドの挙動は揃える](https://zenn.dev/kmy/articles/asuka-cs-1-6-subclass-method)
 * [具象ではなく抽象に依存する](https://zenn.dev/kmy/articles/asuka-cs-1-7-dependson)
-* インターフェースを肥大化させない
+* [インターフェースを肥大化させない](https://zenn.dev/kmy/articles/asuka-cs-1-8-fat-interface)
 * 処理の共通化のために継承しない
 * 継承とインターフェースの使い分け
 * 行き過ぎた合理化・共通化に注意する
