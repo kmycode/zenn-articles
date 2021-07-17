@@ -2,7 +2,7 @@
 title: "第1章　8　不要なメンバーを抽象化しない"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'oop']
 published: false
 ---
 

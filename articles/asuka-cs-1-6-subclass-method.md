@@ -2,7 +2,7 @@
 title: "第1章　6　抽象メソッドをオーバーライドまたは実装したメソッドの挙動は揃える"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'oop']
 published: false
 ---
 

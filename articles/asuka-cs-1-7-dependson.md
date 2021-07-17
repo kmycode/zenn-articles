@@ -2,7 +2,7 @@
 title: "第1章　7　具象ではなく抽象に依存する"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'oop']
 published: false
 ---
 

@@ -2,7 +2,7 @@
 title: "第1章　4　1つの型の責務を明確にし、複数の責務を含めない"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'oop']
 published: false
 ---
 

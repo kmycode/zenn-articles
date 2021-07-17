@@ -2,7 +2,7 @@
 title: "第1章　3　組み込み型より新規クラス・構造体の作成を選択する"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'ddd', 'oop']
 published: false
 ---
 

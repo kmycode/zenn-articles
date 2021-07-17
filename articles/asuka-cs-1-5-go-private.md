@@ -2,7 +2,7 @@
 title: "第1章　5　アクセス修飾子はprivateを優先的に検討する"
 emoji: "🤮"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ['csharp', 'asukacs']
+topics: ['csharp', 'asukacs', 'oop']
 published: false
 ---
 
